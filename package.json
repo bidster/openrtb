@@ -1,13 +1,13 @@
 {
-  "name": "@clearcodehq/openrtb",
+  "name": "@bidster/openrtb",
   "description": "Library with OpenRTB spec types which allows to build and validate OpenRTB objects",
   "version": "1.0.1",
-  "author": "Clearcode (https://clearcode.cc)",
+  "author": "Bidster (https://bidster.net)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ClearcodeHQ/openrtb.git"
+    "url": "https://github.com/bidster/openrtb.git"
   },
   "license": "MIT",
   "keywords": [
@@ -18,9 +18,9 @@
     "advertising"
   ],
   "bug": {
-    "url": "https://github.com/ClearcodeHQ/openrtb/issues"
+    "url": "https://github.com/bidster/openrtb/issues"
   },
-  "homepage": "https://github.com/ClearcodeHQ/openrtb",
+  "homepage": "https://github.com/bidster/openrtb",
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "tsc",
