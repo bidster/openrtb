@@ -5,16 +5,16 @@ This is a Node.js library with OpenRTB [v2.5](https://www.iab.com/wp-content/upl
 
 ## Installation
 For npm:
-* `npm i @clearcodehq/openrtb --save-dev`
+* `npm i @bidster/openrtb --save-dev`
 
 For yarn:
-* `yarn add @clearcodehq/openrtb --dev`
+* `yarn add @bidster/openrtb --dev`
 
 ## Usage
 To use the OpenRTB v2.5 types, import the package into your file:
 
 ```typescript
-import { OpenRTB25 } from '@clearcodehq/openrtb'
+import { OpenRTB25 } from '@bidster/openrtb'
 
 const request: OpenRTB25.BidRequest = {
   id: '0123456789ABCDEF',
@@ -52,7 +52,7 @@ const response: OpenRTB25.BidResponse = {
 The same with OpenRTB v3.0 types:
 
 ```typescript
-import { OpenRTB30 } from '@clearcodehq/openrtb'
+import { OpenRTB30 } from '@bidster/openrtb'
 
 const request: OpenRTB30.BidRequest = {
   openrtb: {
